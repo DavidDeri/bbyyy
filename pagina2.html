@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2 - Piensatelo bien bebe</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center; 
+            height: 100vh; 
+            margin: 0; 
+            background-color: #fff0f6; /* Un color rosado suave */
+        }
+        img { 
+            max-width: 80%; 
+            border-radius: 20px; 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+            margin-bottom: 30px;
+        }
+        .contenedor-botones {
+            display: flex;
+            gap: 20px; /* Espacio entre los botones */
+        }
+        button { 
+            padding: 15px 30px; 
+            font-size: 20px; 
+            font-weight: bold;
+            cursor: pointer; 
+            border: none; 
+            border-radius: 50px; 
+            transition: transform 0.2s; /* Efecto al pasar el ratón */
+        }
+        .btn-si { background-color: #ff4757; color: white; }
+        .btn-claro { background-color: #2ed573; color: white; }
+        
+        button:hover { transform: scale(1.1); } /* Se agrandan un poquito al tocarlos */
+    </style>
+</head>
+<body>
+    <h1>¿Quieres ser mi San Valentin?</h1>
+    
+    <img src="conejito.jpg" alt="Imagen celebración">
+    
+    <div class="contenedor-botones">
+        <button class="btn-si" onclick="alert('Un poco más de entusiasmo mi amor')">Sí</button>
+        <button class="btn-claro" onclick="alert('Así me gusta te quiero mucho bbyyy')">¡Claro que sí! Eres el mejor te amo bebe</button>
+    </div>
+</body>
+</html>
